@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0BB2D90C215FEAB000043F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D90B215FEAB000043F9F /* AppDelegate.swift */; };
-		0BB2D90E215FEAB000043F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D90D215FEAB000043F9F /* ViewController.swift */; };
+		0BB2D90E215FEAB000043F9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D90D215FEAB000043F9F /* LoginViewController.swift */; };
 		0BB2D911215FEAB000043F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2D90F215FEAB000043F9F /* Main.storyboard */; };
 		0BB2D913215FEAB200043F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2D912215FEAB200043F9F /* Assets.xcassets */; };
 		0BB2D916215FEAB200043F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2D914215FEAB200043F9F /* LaunchScreen.storyboard */; };
 		0BB2D921215FEAB300043F9F /* chatoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D920215FEAB300043F9F /* chatoramaTests.swift */; };
 		0BB2D92C215FEAB300043F9F /* chatoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D92B215FEAB300043F9F /* chatoramaUITests.swift */; };
+		0BB2D93A215FFA5300043F9F /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D939215FFA5300043F9F /* RegistrationViewController.swift */; };
+		0BB2D93C215FFF3500043F9F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D93B215FFF3500043F9F /* ChatViewController.swift */; };
+		0BB2D93E21603B5600043F9F /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2D93D21603B5600043F9F /* ChatCell.swift */; };
+		24CF433700746A715E77C6A3 /* Pods_chatoramaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC489A3D3C9FBE4053DCADC7 /* Pods_chatoramaUITests.framework */; };
+		85D3FCC979E73B04C818C37F /* Pods_chatorama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E879D9953B703CCA331EDC2B /* Pods_chatorama.framework */; };
+		D9A7C57B918AA777C5CBD978 /* Pods_chatoramaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBB1DC9DAEEBA203D0B5FCD /* Pods_chatoramaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B327B6B1C4F2F9514076B17 /* Pods-chatorama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatorama.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatorama/Pods-chatorama.release.xcconfig"; sourceTree = "<group>"; };
 		0BB2D908215FEAB000043F9F /* chatorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB2D90B215FEAB000043F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BB2D90D215FEAB000043F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BB2D90D215FEAB000043F9F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0BB2D910215FEAB000043F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BB2D912215FEAB200043F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB2D915215FEAB200043F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 		0BB2D927215FEAB300043F9F /* chatoramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatoramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB2D92B215FEAB300043F9F /* chatoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatoramaUITests.swift; sourceTree = "<group>"; };
 		0BB2D92D215FEAB300043F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB2D939215FFA5300043F9F /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		0BB2D93B215FFF3500043F9F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		0BB2D93D21603B5600043F9F /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		7B3B496BDBCCBAA2A1A3EE56 /* Pods-chatoramaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatoramaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatoramaUITests/Pods-chatoramaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FBB1DC9DAEEBA203D0B5FCD /* Pods_chatoramaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatoramaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3005B3435102E7052EF636 /* Pods-chatorama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatorama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatorama/Pods-chatorama.debug.xcconfig"; sourceTree = "<group>"; };
+		A1D2E5B16CE7DC334B8C4A6D /* Pods-chatoramaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatoramaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatoramaTests/Pods-chatoramaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B7EE68A3063E20E3D551AB /* Pods-chatoramaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatoramaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatoramaTests/Pods-chatoramaTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA26B5C24ADA18A0B33534DD /* Pods-chatoramaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatoramaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatoramaUITests/Pods-chatoramaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E879D9953B703CCA331EDC2B /* Pods_chatorama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatorama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC489A3D3C9FBE4053DCADC7 /* Pods_chatoramaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatoramaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D3FCC979E73B04C818C37F /* Pods_chatorama.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A7C57B918AA777C5CBD978 /* Pods_chatoramaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CF433700746A715E77C6A3 /* Pods_chatoramaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				0BB2D91F215FEAB300043F9F /* chatoramaTests */,
 				0BB2D92A215FEAB300043F9F /* chatoramaUITests */,
 				0BB2D909215FEAB000043F9F /* Products */,
+				84FA3505D215C37DBF9AA20B /* Pods */,
+				C8701F251805287968FD0766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +120,9 @@
 		0BB2D90A215FEAB000043F9F /* chatorama */ = {
 			isa = PBXGroup;
 			children = (
+				0BB2D94021603BA300043F9F /* Models */,
+				0BB2D93F21603B9600043F9F /* ViewControllers */,
 				0BB2D90B215FEAB000043F9F /* AppDelegate.swift */,
-				0BB2D90D215FEAB000043F9F /* ViewController.swift */,
 				0BB2D90F215FEAB000043F9F /* Main.storyboard */,
 				0BB2D912215FEAB200043F9F /* Assets.xcassets */,
 				0BB2D914215FEAB200043F9F /* LaunchScreen.storyboard */,
@@ -125,6 +149,47 @@
 			path = chatoramaUITests;
 			sourceTree = "<group>";
 		};
+		0BB2D93F21603B9600043F9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BB2D93B215FFF3500043F9F /* ChatViewController.swift */,
+				0BB2D90D215FEAB000043F9F /* LoginViewController.swift */,
+				0BB2D939215FFA5300043F9F /* RegistrationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0BB2D94021603BA300043F9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BB2D93D21603B5600043F9F /* ChatCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84FA3505D215C37DBF9AA20B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F3005B3435102E7052EF636 /* Pods-chatorama.debug.xcconfig */,
+				0B327B6B1C4F2F9514076B17 /* Pods-chatorama.release.xcconfig */,
+				A1D2E5B16CE7DC334B8C4A6D /* Pods-chatoramaTests.debug.xcconfig */,
+				B6B7EE68A3063E20E3D551AB /* Pods-chatoramaTests.release.xcconfig */,
+				7B3B496BDBCCBAA2A1A3EE56 /* Pods-chatoramaUITests.debug.xcconfig */,
+				CA26B5C24ADA18A0B33534DD /* Pods-chatoramaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8701F251805287968FD0766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E879D9953B703CCA331EDC2B /* Pods_chatorama.framework */,
+				8FBB1DC9DAEEBA203D0B5FCD /* Pods_chatoramaTests.framework */,
+				FC489A3D3C9FBE4053DCADC7 /* Pods_chatoramaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BB2D930215FEAB300043F9F /* Build configuration list for PBXNativeTarget "chatorama" */;
 			buildPhases = (
+				79DE36A5D28ADF2FB4FA3691 /* [CP] Check Pods Manifest.lock */,
 				0BB2D904215FEAB000043F9F /* Sources */,
 				0BB2D905215FEAB000043F9F /* Frameworks */,
 				0BB2D906215FEAB000043F9F /* Resources */,
+				FB51B956F54E1A52CA482D43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BB2D933215FEAB300043F9F /* Build configuration list for PBXNativeTarget "chatoramaTests" */;
 			buildPhases = (
+				2C2FDE507FAA6D35F67ED593 /* [CP] Check Pods Manifest.lock */,
 				0BB2D918215FEAB300043F9F /* Sources */,
 				0BB2D919215FEAB300043F9F /* Frameworks */,
 				0BB2D91A215FEAB300043F9F /* Resources */,
@@ -167,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BB2D936215FEAB300043F9F /* Build configuration list for PBXNativeTarget "chatoramaUITests" */;
 			buildPhases = (
+				DEB39FE198EF82CCB7C6BE0A /* [CP] Check Pods Manifest.lock */,
 				0BB2D923215FEAB300043F9F /* Sources */,
 				0BB2D924215FEAB300043F9F /* Frameworks */,
 				0BB2D925215FEAB300043F9F /* Resources */,
@@ -251,12 +320,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C2FDE507FAA6D35F67ED593 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatoramaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DE36A5D28ADF2FB4FA3691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatorama-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB39FE198EF82CCB7C6BE0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatoramaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB51B956F54E1A52CA482D43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-chatorama/Pods-chatorama-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatorama/Pods-chatorama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BB2D904215FEAB000043F9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB2D90E215FEAB000043F9F /* ViewController.swift in Sources */,
+				0BB2D93E21603B5600043F9F /* ChatCell.swift in Sources */,
+				0BB2D93A215FFA5300043F9F /* RegistrationViewController.swift in Sources */,
+				0BB2D90E215FEAB000043F9F /* LoginViewController.swift in Sources */,
+				0BB2D93C215FFF3500043F9F /* ChatViewController.swift in Sources */,
 				0BB2D90C215FEAB000043F9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +595,7 @@
 		};
 		0BB2D931215FEAB300043F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3005B3435102E7052EF636 /* Pods-chatorama.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +614,7 @@
 		};
 		0BB2D932215FEAB300043F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B327B6B1C4F2F9514076B17 /* Pods-chatorama.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +633,7 @@
 		};
 		0BB2D934215FEAB300043F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D2E5B16CE7DC334B8C4A6D /* Pods-chatoramaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +655,7 @@
 		};
 		0BB2D935215FEAB300043F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B7EE68A3063E20E3D551AB /* Pods-chatoramaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +677,7 @@
 		};
 		0BB2D937215FEAB300043F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3B496BDBCCBAA2A1A3EE56 /* Pods-chatoramaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +698,7 @@
 		};
 		0BB2D938215FEAB300043F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA26B5C24ADA18A0B33534DD /* Pods-chatoramaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
